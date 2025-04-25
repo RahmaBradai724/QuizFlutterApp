@@ -1,0 +1,214 @@
+{
+  "appTitle": "Quiz OpenTDB",
+  "@appTitle": {
+    "description": "Titre de l'application"
+  },
+  "startQuiz": "Commencer le Quiz",
+  "@startQuiz": {
+    "description": "Étiquette pour le bouton de démarrage du quiz"
+  },
+  "stats": "Statistiques",
+  "@stats": {
+    "description": "Titre de l'écran des statistiques"
+  },
+  "settings": "Paramètres",
+  "@settings": {
+    "description": "Titre de l'écran des paramètres"
+  },
+  "about": "À propos",
+  "@about": {
+    "description": "Titre de l'écran à propos"
+  },
+  "quiz": "Quiz",
+  "@quiz": {
+    "description": "Titre de l'écran du quiz"
+  },
+  "selectCategory": "Choisir une Catégorie",
+  "@selectCategory": {
+    "description": "Indice pour le menu déroulant des catégories"
+  },
+  "selectDifficulty": "Choisir la Difficulté",
+  "@selectDifficulty": {
+    "description": "Indice pour le menu déroulant de la difficulté"
+  },
+  "selectQuestionCount": "Sélectionner le Nombre de Questions",
+  "@selectQuestionCount": {
+    "description": "Indice pour le menu déroulant du nombre de questions"
+  },
+  "start": "Démarrer",
+  "@start": {
+    "description": "Étiquette pour le bouton de démarrage"
+  },
+  "question": "Question",
+  "@question": {
+    "description": "Étiquette pour le numéro de la question"
+  },
+  "timeRemaining": "Temps Restant",
+  "@timeRemaining": {
+    "description": "Étiquette pour le chronomètre"
+  },
+  "results": "Résultats",
+  "@results": {
+    "description": "Titre de l'écran des résultats"
+  },
+  "yourScore": "Votre Score",
+  "@yourScore": {
+    "description": "Étiquette pour l'affichage du score"
+  },
+  "correctAnswer": "Réponse Correcte",
+  "@correctAnswer": {
+    "description": "Étiquette pour la réponse correcte"
+  },
+  "playAgain": "Rejouer",
+  "@playAgain": {
+    "description": "Étiquette pour le bouton rejouer"
+  },
+  "backToHome": "Retour à l'Accueil",
+  "@backToHome": {
+    "description": "Étiquette pour le bouton de retour à l'accueil"
+  },
+  "numberOfQuestions": "Nombre de Questions",
+  "@numberOfQuestions": {
+    "description": "Étiquette pour le nombre de questions"
+  },
+  "easy": "Facile",
+  "@easy": {
+    "description": "Étiquette pour la difficulté facile"
+  },
+  "medium": "Moyen",
+  "@medium": {
+    "description": "Étiquette pour la difficulté moyenne"
+  },
+  "hard": "Difficile",
+  "@hard": {
+    "description": "Étiquette pour la difficulté difficile"
+  },
+  "any": "Tous",
+  "@any": {
+    "description": "Étiquette pour toutes les difficultés"
+  },
+  "next": "Suivant",
+  "@next": {
+    "description": "Étiquette pour le bouton suivant"
+  },
+  "finish": "Terminer",
+  "@finish": {
+    "description": "Étiquette pour le bouton terminer"
+  },
+  "correct": "Correct !",
+  "@correct": {
+    "description": "Message pour une réponse correcte"
+  },
+  "wrong": "Faux !",
+  "@wrong": {
+    "description": "Message pour une réponse incorrecte"
+  },
+  "timeUp": "Temps écoulé !",
+  "@timeUp": {
+    "description": "Message pour temps écoulé"
+  },
+  "finalScore": "Score Final",
+  "@finalScore": {
+    "description": "Étiquette pour le score final"
+  },
+  "correctAnswers": "Réponses Correctes",
+  "@correctAnswers": {
+    "description": "Étiquette pour les réponses correctes"
+  },
+  "incorrectAnswers": "Réponses Incorrectes",
+  "@incorrectAnswers": {
+    "description": "Étiquette pour les réponses incorrectes"
+  },
+  "noStats": "Aucune statistique disponible",
+  "@noStats": {
+    "description": "Message affiché lorsque aucune statistique n'est disponible"
+  },
+  "bestScore": "Meilleur Score",
+  "@bestScore": {
+    "description": "Étiquette pour la statistique du meilleur score"
+  },
+  "averageScore": "Score Moyen",
+  "@averageScore": {
+    "description": "Étiquette pour la statistique du score moyen"
+  },
+  "totalQuizzes": "Total des Quiz",
+  "@totalQuizzes": {
+    "description": "Étiquette pour le nombre total de quiz"
+  },
+  "clearStats": "Effacer les Statistiques",
+  "@clearStats": {
+    "description": "Titre de la boîte de dialogue pour effacer les statistiques"
+  },
+  "clearStatsConfirmation": "Êtes-vous sûr de vouloir effacer toutes les statistiques ?",
+  "@clearStatsConfirmation": {
+    "description": "Message de confirmation pour effacer les statistiques"
+  },
+  "cancel": "Annuler",
+  "@cancel": {
+    "description": "Étiquette pour le bouton d'annulation"
+  },
+  "confirm": "Confirmer",
+  "@confirm": {
+    "description": "Étiquette pour le bouton de confirmation"
+  },
+  "aboutContent": "Cette application utilise l'API Open Trivia Database pour fournir des questions de quiz.",
+  "@aboutContent": {
+    "description": "Contenu de l'écran à propos"
+  },
+  "aboutAppDescription": "Quiz OpenTDB est une application amusante et éducative construite avec Flutter. Testez vos connaissances à travers différentes catégories avec des questions provenant de l'API Open Trivia Database.",
+  "@aboutAppDescription": {
+    "description": "Description de l'application sur l'écran à propos"
+  },
+  "aboutApiTitle": "À propos de l'API OpenTDB",
+  "@aboutApiTitle": {
+    "description": "Titre pour la section de l'API OpenTDB sur l'écran à propos"
+  },
+  "aboutApiDescription": "La base de données Open Trivia (OpenTDB) fournit une API gratuite avec des milliers de questions de trivia dans plusieurs catégories et niveaux de difficulté, idéale pour des applications de quiz comme celle-ci.",
+  "@aboutApiDescription": {
+    "description": "Description de l'API OpenTDB sur l'écran à propos"
+  },
+  "visitApiWebsite": "Visiter le site d'OpenTDB : https://opentdb.com",
+  "@visitApiWebsite": {
+    "description": "Étiquette pour le lien vers le site d'OpenTDB"
+  },
+  "errorLaunchingUrl": "Impossible de lancer l'URL",
+  "@errorLaunchingUrl": {
+    "description": "Message d'erreur lorsque l'URL ne peut pas être lancé"
+  },
+  "version": "Version : 1.0.0+1",
+  "@version": {
+    "description": "Version de l'application affichée sur l'écran à propos"
+  },
+  "darkMode": "Mode Sombre",
+  "@darkMode": {
+    "description": "Étiquette pour l'activation du mode sombre"
+  },
+  "enableSounds": "Activer les Sons",
+  "@enableSounds": {
+    "description": "Étiquette pour activer les effets sonores"
+  },
+  "enableVibrations": "Activer les Vibrations",
+  "@enableVibrations": {
+    "description": "Étiquette pour activer les effets de vibration"
+  },
+  "enableNotifications": "Activer les Notifications",
+  "@enableNotifications": {
+    "description": "Étiquette pour activer les notifications"
+  },
+  "language": "Langue",
+  "@language": {
+    "description": "Étiquette pour la sélection de la langue"
+  },
+  "english": "Anglais",
+  "@english": {
+    "description": "Étiquette pour l'option de langue anglaise"
+  },
+  "french": "Français",
+  "@french": {
+    "description": "Étiquette pour l'option de langue française"
+  },
+  "arabic": "Arabe",
+  "@arabic": {
+    "description": "Étiquette pour l'option de langue arabe"
+  }
+}

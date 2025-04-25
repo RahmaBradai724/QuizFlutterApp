@@ -1,0 +1,214 @@
+{
+  "appTitle": "OpenTDB Quiz",
+  "@appTitle": {
+    "description": "Title of the application"
+  },
+  "startQuiz": "Start Quiz",
+  "@startQuiz": {
+    "description": "Label for the start quiz button"
+  },
+  "stats": "Statistics",
+  "@stats": {
+    "description": "Title for the statistics screen"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Title for the settings screen"
+  },
+  "about": "About",
+  "@about": {
+    "description": "Title for the about screen"
+  },
+  "quiz": "Quiz",
+  "@quiz": {
+    "description": "Title for the quiz screen"
+  },
+  "selectCategory": "Select Category",
+  "@selectCategory": {
+    "description": "Hint for category dropdown"
+  },
+  "selectDifficulty": "Select Difficulty",
+  "@selectDifficulty": {
+    "description": "Hint for difficulty dropdown"
+  },
+  "selectQuestionCount": "Select Question Count",
+  "@selectQuestionCount": {
+    "description": "Hint for question count dropdown"
+  },
+  "start": "Start",
+  "@start": {
+    "description": "Label for the start button"
+  },
+  "question": "Question",
+  "@question": {
+    "description": "Label for question number"
+  },
+  "timeRemaining": "Time Remaining",
+  "@timeRemaining": {
+    "description": "Label for timer"
+  },
+  "results": "Results",
+  "@results": {
+    "description": "Title for the results screen"
+  },
+  "yourScore": "Your Score",
+  "@yourScore": {
+    "description": "Label for score display"
+  },
+  "correctAnswer": "Correct Answer",
+  "@correctAnswer": {
+    "description": "Label for correct answer"
+  },
+  "playAgain": "Play Again",
+  "@playAgain": {
+    "description": "Label for play again button"
+  },
+  "backToHome": "Back to Home",
+  "@backToHome": {
+    "description": "Label for back to home button"
+  },
+  "numberOfQuestions": "Number of Questions",
+  "@numberOfQuestions": {
+    "description": "Label for number of questions"
+  },
+  "easy": "Easy",
+  "@easy": {
+    "description": "Label for easy difficulty"
+  },
+  "medium": "Medium",
+  "@medium": {
+    "description": "Label for medium difficulty"
+  },
+  "hard": "Hard",
+  "@hard": {
+    "description": "Label for hard difficulty"
+  },
+  "any": "Any",
+  "@any": {
+    "description": "Label for any difficulty"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Label for next button"
+  },
+  "finish": "Finish",
+  "@finish": {
+    "description": "Label for finish button"
+  },
+  "correct": "Correct!",
+  "@correct": {
+    "description": "Message for correct answer"
+  },
+  "wrong": "Wrong!",
+  "@wrong": {
+    "description": "Message for wrong answer"
+  },
+  "timeUp": "Time's up!",
+  "@timeUp": {
+    "description": "Message for time up"
+  },
+  "finalScore": "Final Score",
+  "@finalScore": {
+    "description": "Label for final score"
+  },
+  "correctAnswers": "Correct Answers",
+  "@correctAnswers": {
+    "description": "Label for correct answers"
+  },
+  "incorrectAnswers": "Incorrect Answers",
+  "@incorrectAnswers": {
+    "description": "Label for incorrect answers"
+  },
+  "noStats": "No statistics available",
+  "@noStats": {
+    "description": "Message shown when no statistics are available"
+  },
+  "bestScore": "Best Score",
+  "@bestScore": {
+    "description": "Label for the best score statistic"
+  },
+  "averageScore": "Average Score",
+  "@averageScore": {
+    "description": "Label for the average score statistic"
+  },
+  "totalQuizzes": "Total Quizzes",
+  "@totalQuizzes": {
+    "description": "Label for the total number of quizzes"
+  },
+  "clearStats": "Clear Statistics",
+  "@clearStats": {
+    "description": "Title for the clear statistics dialog"
+  },
+  "clearStatsConfirmation": "Are you sure you want to clear all statistics?",
+  "@clearStatsConfirmation": {
+    "description": "Confirmation message for clearing statistics"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Label for the cancel button"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Label for the confirm button"
+  },
+  "aboutContent": "This app uses the Open Trivia Database API to provide quiz questions.",
+  "@aboutContent": {
+    "description": "Content for the about screen"
+  },
+  "aboutAppDescription": "OpenTDB Quiz is a fun and educational app built with Flutter. Test your knowledge across various categories with questions fetched from the Open Trivia Database API.",
+  "@aboutAppDescription": {
+    "description": "Description of the application on the about screen"
+  },
+  "aboutApiTitle": "About OpenTDB API",
+  "@aboutApiTitle": {
+    "description": "Title for the OpenTDB API section on the about screen"
+  },
+  "aboutApiDescription": "The Open Trivia Database (OpenTDB) provides a free API with thousands of trivia questions across multiple categories and difficulty levels, making it perfect for quiz applications like this one.",
+  "@aboutApiDescription": {
+    "description": "Description of the OpenTDB API on the about screen"
+  },
+  "visitApiWebsite": "Visit OpenTDB Website: https://opentdb.com",
+  "@visitApiWebsite": {
+    "description": "Label for the link to the OpenTDB website"
+  },
+  "errorLaunchingUrl": "Could not launch the URL",
+  "@errorLaunchingUrl": {
+    "description": "Error message when the URL cannot be launched"
+  },
+  "version": "Version: 1.0.0+1",
+  "@version": {
+    "description": "Application version displayed on the about screen"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Label for dark mode toggle"
+  },
+  "enableSounds": "Enable Sounds",
+  "@enableSounds": {
+    "description": "Label for enabling sound effects"
+  },
+  "enableVibrations": "Enable Vibrations",
+  "@enableVibrations": {
+    "description": "Label for enabling vibration effects"
+  },
+  "enableNotifications": "Enable Notifications",
+  "@enableNotifications": {
+    "description": "Label for enabling notifications"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Label for language selection"
+  },
+  "english": "English",
+  "@english": {
+    "description": "Label for English language option"
+  },
+  "french": "French",
+  "@french": {
+    "description": "Label for French language option"
+  },
+  "arabic": "Arabic",
+  "@arabic": {
+    "description": "Label for Arabic language option"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "appTitle": "مسابقة OpenTDB",
+  "@appTitle": {
+    "description": "عنوان التطبيق"
+  },
+  "startQuiz": "بدء المسابقة",
+  "@startQuiz": {
+    "description": "تسمية زر بدء الاختبار"
+  },
+  "stats": "الإحصائيات",
+  "@stats": {
+    "description": "عنوان شاشة الإحصائيات"
+  },
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "عنوان شاشة الإعدادات"
+  },
+  "about": "حول",
+  "@about": {
+    "description": "عنوان شاشة حول"
+  },
+  "quiz": "اختبار",
+  "@quiz": {
+    "description": "عنوان شاشة الاختبار"
+  },
+  "selectCategory": "اختر الفئة",
+  "@selectCategory": {
+    "description": "تلميح لقائمة الفئات المنسدلة"
+  },
+  "selectDifficulty": "اختر الصعوبة",
+  "@selectDifficulty": {
+    "description": "تلميح لقائمة الصعوبة المنسدلة"
+  },
+  "selectQuestionCount": "اختر عدد الأسئلة",
+  "@selectQuestionCount": {
+    "description": "تلميح لقائمة عدد الأسئلة المنسدلة"
+  },
+  "start": "ابدأ",
+  "@start": {
+    "description": "تسمية زر البدء"
+  },
+  "question": "سؤال",
+  "@question": {
+    "description": "تسمية رقم السؤال"
+  },
+  "timeRemaining": "الوقت المتبقي",
+  "@timeRemaining": {
+    "description": "تسمية المؤقت"
+  },
+  "results": "النتائج",
+  "@results": {
+    "description": "عنوان شاشة النتائج"
+  },
+  "yourScore": "نتيجتك",
+  "@yourScore": {
+    "description": "تسمية عرض النتيجة"
+  },
+  "correctAnswer": "الإجابة الصحيحة",
+  "@correctAnswer": {
+    "description": "تسمية الإجابة الصحيحة"
+  },
+  "playAgain": "العب مرة أخرى",
+  "@playAgain": {
+    "description": "تسمية زر إعادة اللعب"
+  },
+  "backToHome": "العودة إلى الرئيسية",
+  "@backToHome": {
+    "description": "تسمية زر العودة إلى الصفحة الرئيسية"
+  },
+  "numberOfQuestions": "عدد الأسئلة",
+  "@numberOfQuestions": {
+    "description": "تسمية لعدد الأسئلة"
+  },
+  "easy": "سهل",
+  "@easy": {
+    "description": "تسمية للصعوبة السهلة"
+  },
+  "medium": "متوسط",
+  "@medium": {
+    "description": "تسمية للصعوبة المتوسطة"
+  },
+  "hard": "صعب",
+  "@hard": {
+    "description": "تسمية للصعوبة الصعبة"
+  },
+  "any": "أي",
+  "@any": {
+    "description": "تسمية لأي صعوبة"
+  },
+  "next": "التالي",
+  "@next": {
+    "description": "تسمية لزر التالي"
+  },
+  "finish": "إنهاء",
+  "@finish": {
+    "description": "تسمية لزر الإنهاء"
+  },
+  "correct": "صحيح!",
+  "@correct": {
+    "description": "رسالة للإجابة الصحيحة"
+  },
+  "wrong": "خطأ!",
+  "@wrong": {
+    "description": "رسالة للإجابة الخاطئة"
+  },
+  "timeUp": "انتهى الوقت!",
+  "@timeUp": {
+    "description": "رسالة لانتهاء الوقت"
+  },
+  "finalScore": "النتيجة النهائية",
+  "@finalScore": {
+    "description": "تسمية للنتيجة النهائية"
+  },
+  "correctAnswers": "إجابات صحيحة",
+  "@correctAnswers": {
+    "description": "تسمية للإجابات الصحيحة"
+  },
+  "incorrectAnswers": "إجابات خاطئة",
+  "@incorrectAnswers": {
+    "description": "تسمية للإجابات الخاطئة"
+  },
+  "noStats": "لا توجد إحصائيات متاحة",
+  "@noStats": {
+    "description": "رسالة تظهر عند عدم توفر إحصائيات"
+  },
+  "bestScore": "أفضل نتيجة",
+  "@bestScore": {
+    "description": "تسمية إحصائية أفضل نتيجة"
+  },
+  "averageScore": "متوسط النتيجة",
+  "@averageScore": {
+    "description": "تسمية إحصائية النتيجة المتوسطة"
+  },
+  "totalQuizzes": "إجمالي المسابقات",
+  "@totalQuizzes": {
+    "description": "تسمية العدد الإجمالي للاختبارات"
+  },
+  "clearStats": "مسح الإحصائيات",
+  "@clearStats": {
+    "description": "عنوان حوار مسح الإحصائيات"
+  },
+  "clearStatsConfirmation": "هل أنت متأكد أنك تريد مسح جميع الإحصائيات؟",
+  "@clearStatsConfirmation": {
+    "description": "رسالة تأكيد لمسح الإحصائيات"
+  },
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "تسمية زر الإلغاء"
+  },
+  "confirm": "تأكيد",
+  "@confirm": {
+    "description": "تسمية زر التأكيد"
+  },
+  "aboutContent": "هذا التطبيق يستخدم واجهة برمجة تطبيقات Open Trivia Database لتوفير أسئلة المسابقة.",
+  "@aboutContent": {
+    "description": "محتوى شاشة حول"
+  },
+  "aboutAppDescription": "مسابقة OpenTDB هي تطبيق ممتع وتعليمي تم إنشاؤه باستخدام Flutter. اختبر معرفتك عبر فئات متنوعة مع أسئلة مستمدة من واجهة برمجة تطبيقات Open Trivia Database.",
+  "@aboutAppDescription": {
+    "description": "وصف التطبيق على شاشة حول"
+  },
+  "aboutApiTitle": "حول واجهة برمجة التطبيقات OpenTDB",
+  "@aboutApiTitle": {
+    "description": "عنوان قسم واجهة برمجة التطبيقات OpenTDB على شاشة حول"
+  },
+  "aboutApiDescription": "قاعدة بيانات Open Trivia (OpenTDB) توفر واجهة برمجة تطبيقات مجانية تحتوي على آلاف الأسئلة الترفيهية عبر فئات ومستويات صعوبة متعددة، مما يجعلها مثالية لتطبيقات المسابقات مثل هذا التطبيق.",
+  "@aboutApiDescription": {
+    "description": "وصف واجهة برمجة التطبيقات OpenTDB على شاشة حول"
+  },
+  "visitApiWebsite": "زوروا موقع OpenTDB: https://opentdb.com",
+  "@visitApiWebsite": {
+    "description": "تسمية الرابط إلى موقع OpenTDB"
+  },
+  "errorLaunchingUrl": "تعذر فتح الرابط",
+  "@errorLaunchingUrl": {
+    "description": "رسالة خطأ عند تعذر فتح الرابط"
+  },
+  "version": "الإصدار: 1.0.0+1",
+  "@version": {
+    "description": "إصدار التطبيق المعروض على شاشة حول"
+  },
+  "darkMode": "الوضع المظلم",
+  "@darkMode": {
+    "description": "تسمية تبديل الوضع الداكن"
+  },
+  "enableSounds": "تفعيل الأصوات",
+  "@enableSounds": {
+    "description": "تسمية تفعيل الأصوات"
+  },
+  "enableVibrations": "تفعيل الاهتزازات",
+  "@enableVibrations": {
+    "description": "تسمية تفعيل الاهتزازات"
+  },
+  "enableNotifications": "تفعيل الإشعارات",
+  "@enableNotifications": {
+    "description": "تسمية تفعيل الإشعارات"
+  },
+  "language": "اللغة",
+  "@language": {
+    "description": "تسمية اختيار اللغة"
+  },
+  "english": "الإنجليزية",
+  "@english": {
+    "description": "تسمية خيار اللغة الإنجليزية"
+  },
+  "french": "الفرنسية",
+  "@french": {
+    "description": "تسمية خيار اللغة الفرنسية"
+  },
+  "arabic": "العربية",
+  "@arabic": {
+    "description": "تسمية خيار اللغة العربية"
+  }
+}
