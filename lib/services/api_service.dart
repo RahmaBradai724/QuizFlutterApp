@@ -17,7 +17,7 @@ class ApiService {
     }
   }
 
-  Future<List<Question>> fetchQuestions({
+  Future<List> fetchQuestions({
     required String category,
     required String difficulty,
     required int amount,

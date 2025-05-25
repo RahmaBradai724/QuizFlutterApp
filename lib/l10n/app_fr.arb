@@ -19,37 +19,9 @@
   "@about": {
     "description": "Titre de l'écran à propos"
   },
-  "quiz": "Quiz",
-  "@quiz": {
-    "description": "Titre de l'écran du quiz"
-  },
-  "selectCategory": "Choisir une Catégorie",
-  "@selectCategory": {
-    "description": "Indice pour le menu déroulant des catégories"
-  },
-  "selectDifficulty": "Choisir la Difficulté",
-  "@selectDifficulty": {
-    "description": "Indice pour le menu déroulant de la difficulté"
-  },
-  "selectQuestionCount": "Sélectionner le Nombre de Questions",
-  "@selectQuestionCount": {
-    "description": "Indice pour le menu déroulant du nombre de questions"
-  },
-  "start": "Démarrer",
-  "@start": {
-    "description": "Étiquette pour le bouton de démarrage"
-  },
-  "question": "Question",
-  "@question": {
-    "description": "Étiquette pour le numéro de la question"
-  },
-  "timeRemaining": "Temps Restant",
-  "@timeRemaining": {
-    "description": "Étiquette pour le chronomètre"
-  },
-  "results": "Résultats",
-  "@results": {
-    "description": "Titre de l'écran des résultats"
+  "welcomeMessage": "Bienvenue dans l'Application de Quiz !",
+  "@welcomeMessage": {
+    "description": "Message de bienvenue sur l'écran d'accueil"
   },
   "yourScore": "Votre Score",
   "@yourScore": {

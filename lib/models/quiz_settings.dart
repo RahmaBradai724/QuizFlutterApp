@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../services/score_storage.dart';
+import '../models/score.dart';
 
 class QuizSettings extends ChangeNotifier {
   bool _isDarkMode = false;
@@ -7,6 +9,8 @@ class QuizSettings extends ChangeNotifier {
   bool _vibrationsEnabled = true;
   bool _notificationsEnabled = true;
   Locale _currentLocale = const Locale('en');
+  final ScoreStorage _scoreStorage = ScoreStorage();
+  String _playerName = '';
 
   QuizSettings() {
     _loadSettings();
@@ -18,8 +22,43 @@ class QuizSettings extends ChangeNotifier {
   bool get vibrationsEnabled => _vibrationsEnabled;
   bool get notificationsEnabled => _notificationsEnabled;
   Locale get currentLocale => _currentLocale;
+  String get playerName => _playerName;
 
-  // Setters and toggle methods
+  Future<void> saveScore({
+    required String playerName,
+    required String category,
+    required String difficulty,
+    required int correctAnswers,
+    required int totalQuestions,
+  }) async {
+    final newScore = Score(
+      playerName: playerName,
+      category: category,
+      difficulty: difficulty,
+      correctAnswers: correctAnswers,
+      totalQuestions: totalQuestions,
+      date: DateTime.now(),
+    );
+
+    await _scoreStorage.addScore(newScore);
+    notifyListeners();
+  }
+
+  Future<List<Score>> getScores() async {
+    return await _scoreStorage.getScores();
+  }
+
+  Future<void> clearScores() async {
+    await _scoreStorage.clearScores();
+    notifyListeners();
+  }
+
+  void setPlayerName(String name) {
+    _playerName = name;
+    notifyListeners();
+    _saveString('playerName', name);
+  }
+
   void toggleDarkMode(bool value) async {
     _isDarkMode = value;
     await _saveBool('isDarkMode', value);
@@ -52,7 +91,6 @@ class QuizSettings extends ChangeNotifier {
     }
   }
 
-  // Load settings from SharedPreferences
   Future<void> _loadSettings() async {
     final prefs = await SharedPreferences.getInstance();
     _isDarkMode = prefs.getBool('isDarkMode') ?? false;
@@ -61,16 +99,15 @@ class QuizSettings extends ChangeNotifier {
     _notificationsEnabled = prefs.getBool('notificationsEnabled') ?? true;
     final localeCode = prefs.getString('locale') ?? 'en';
     _currentLocale = Locale(localeCode);
+    _playerName = prefs.getString('playerName') ?? '';
     notifyListeners();
   }
 
-  // Save boolean setting to SharedPreferences
   Future<void> _saveBool(String key, bool value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(key, value);
   }
 
-  // Save string setting to SharedPreferences
   Future<void> _saveString(String key, String value) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(key, value);

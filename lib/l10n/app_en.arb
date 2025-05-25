@@ -19,6 +19,10 @@
   "@about": {
     "description": "Title for the about screen"
   },
+  "welcomeMessage": "Welcome to the Quiz App!",
+  "@welcomeMessage": {
+    "description": "Welcome message on the home screen"
+  },
   "quiz": "Quiz",
   "@quiz": {
     "description": "Title for the quiz screen"

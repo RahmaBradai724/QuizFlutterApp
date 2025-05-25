@@ -8,4 +8,6 @@ class Question {
     required this.options,
     required this.correctAnswer,
   });
+
+  static fromJson(json) {}
 }

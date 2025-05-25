@@ -19,6 +19,10 @@
   "@about": {
     "description": "عنوان شاشة حول"
   },
+  "welcomeMessage": "مرحبًا بكم في تطبيق المسابقة!",
+  "@welcomeMessage": {
+    "description": "رسالة ترحيب في الصفحة الرئيسية"
+  },
   "quiz": "اختبار",
   "@quiz": {
     "description": "عنوان شاشة الاختبار"
