@@ -27,18 +27,24 @@ class ResultScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final localizations = AppLocalizations.of(context);
+    final settings = Provider.of<QuizSettings>(context);
+    final isDarkMode = settings.isDarkMode;
+    final primaryColor = isDarkMode ? Colors.purpleAccent[400]! : Colors.purple[700]!;
+
     if (localizations == null) {
       return const Scaffold(
         body: Center(child: Text('Localization not available')),
       );
     }
-    final settings = Provider.of<QuizSettings>(context);
+    //final settings = Provider.of<QuizSettings>(context);
     final percentage = (score / totalQuestions * 100).toStringAsFixed(1);
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(localizations.results),
-        backgroundColor: settings.isDarkMode ? Colors.blueGrey[800] : Colors.blue,
+        title: Text(localizations.results, style: TextStyle(
+            color: Colors.white)),
+        backgroundColor: primaryColor,
+        iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

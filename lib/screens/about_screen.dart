@@ -61,8 +61,10 @@ class AboutScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(localizations.about),
+        title: Text(localizations.about, style: TextStyle(
+            color: Colors.white)),
         backgroundColor: primaryColor,
+        iconTheme: const IconThemeData(color: Colors.white),
         elevation: 6,
         centerTitle: true,
         shape: const ContinuousRectangleBorder(
@@ -443,7 +445,7 @@ class AboutScreen extends StatelessWidget {
                   context,
                   icon: Icons.public,
                   label: 'GitHub',
-                  onTap: () => _launchURL(context, 'https://github.com/yourprofile'),
+                  onTap: () => _launchURL(context, 'https://github.com/RahmaBradai724/QuizFlutterApp'),
                   isDarkMode: isDarkMode,
                   primaryColor: primaryColor,
                 ),
